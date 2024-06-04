@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="app_weather">
+            <div class="app_weather_input">
+                <input type="text" class="app_weather__input-value" placeholder="Enter City Here" >
+                <button class="app_weather__input-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="app_weather__name"></div>
+            <div class="app_weather__date"></div>
+            <div class="app_weather__description">
+                <i class="fa-solid fa-sun app_weather__description-icon"></i>
+                <span class="app_weather__description-text">Clear Sky</span>
+            </div>
+            <div class="app_weather__temp">
+                <span class="app_weather__temp-text">23<sup>o</sup>C</span></span>
+            </div>
+            <div class="app_weather__details">
+                <div class="app_weather__detail">
+                    <i class="fa-solid fa-wind icon"></i>
+                    <div class="app_weather__detail_wind-num">
+                        
+                    </div>
+                    <div class="app_weather__detail_wind text">
+                        Wind
+                    </div>
+                    
+                </div>
+                <div class="app_weather__detail">
+                    <i class="fa-solid fa-water icon"></i>
+                    <div class="app_weather__detail_humidity-num">
+                            
+                    </div>
+                    <div class="app_weather__detail_humidity text">
+                        Humidity
+                    </div>
+                </div>
+                <div class="app_weather__detail">
+                    <i class="fa-solid fa-cloud icon"></i>
+                    <div class="app_weather__detail_visibility-num">
+                        
+                    </div>
+                    <div class="app_weather__detail_visibility text">
+                        Visibility
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
